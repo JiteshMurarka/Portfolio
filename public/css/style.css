@@ -192,7 +192,7 @@ nav.sticky .menu-btn {
     color: #fff;
     cursor: pointer;
     border: 2px solid transparent;
-    transition: all 0.4s ease;
+    transition: all 1s ease;
 }
 
 .home .button button:hover {
@@ -597,3 +597,27 @@ footer .text span a:hover{
         color: #4070f4;
     }
 }
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 60px;
+    padding: 20px;
+  }
+
+  .tile {
+    border: 1px solid #ccc;
+    padding:  25px 25px 20px 20px;
+    margin: 10px;
+    text-align: center;
+    background-color: #6e93f7;
+    border-radius: 15px;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 2px 3px 7px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+  }
+  .tile:hover{
+    background-color: #fff;
+    color: #4070f4
+  }
